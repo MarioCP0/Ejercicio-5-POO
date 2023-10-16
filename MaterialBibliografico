@@ -26,10 +26,10 @@ public abstract class MaterialBibliográfico{
         return editorial;
     }
 
-    public String getAñoPublicacion(){
+    public int getAñoPublicacion(){
         return añoPublicacion;
     }
-
+    
     public String getGenero(){
         return genero;
     }
