@@ -1,19 +1,20 @@
 import java.util.*;
 
-public abstract class MaterialBibliográfico{
+public abstract class MaterialBibliografico{
     protected String nombre;
     protected String editorial;
     protected int añoPublicacion;
     protected String genero;
     protected String autor;
 
-    public MaterialBibliográfico(String nombre, String editorial, int añoPublicacion, String genero, String autor){
+    public MaterialBibliografico(String nombre, String editorial, int añoPublicacion, String genero, String autor){
         this.nombre = nombre;
         this.editorial = editorial;
         this.añoPublicacion = añoPublicacion;
         this.genero = genero;
         this.autor = autor;
     }
+    
 
     public abstract String generarReferenciaAPA();
 
