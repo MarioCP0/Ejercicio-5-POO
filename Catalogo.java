@@ -1,5 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Catalogo {
     private List<MaterialBibliografico> listaMateriales;
@@ -38,8 +40,9 @@ public class Catalogo {
     }
 
     public void mostrarCatalogo() { 
-        for (MateralBibliografico material : listaMateriales){
-            System.out.println(material.generarReferenciaAPA);
-        }
+    for (MaterialBibliografico material : listaMateriales){
+        System.out.println(material.generarReferenciaAPA());
     }
+}
+
 }
